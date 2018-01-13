@@ -35,7 +35,7 @@ Testor::TestType CreateBase64DecodeTest() {
 
 	Testor::TestType test([=]() {
 		for (auto text : decode_text) {
-			std::cout << "base64::dncode(" << text << ") : ";
+			std::cout << "base64::Encode(" << text << ") : ";
 			std::string plain;
 			base64::Base64Code code = base64::Decode(text, &plain);
 			if (code == base64::kOk)

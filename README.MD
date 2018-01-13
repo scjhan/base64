@@ -24,9 +24,9 @@ cd ./bin
 ```
 Simple output like this:
 ```shell
-base64::dncode(SGVsbG8gV29ybGQ=) : Hello World
-base64::dncode(Q2hlbkp1bmhhbg==) : ChenJunhan
-base64::dncode(TmV0ZWFzZQ==) : Netease
+base64::Decode(SGVsbG8gV29ybGQ=) : Hello World
+base64::Decode(Q2hlbkp1bmhhbg==) : ChenJunhan
+base64::Decode(TmV0ZWFzZQ==) : Netease
 base64::Encode(Hello World) : SGVsbG8gV29ybGQ=
 base64::Encode(ChenJunhan) : Q2hlbkp1bmhhbg==
 base64::Encode(Netease) : TmV0ZWFzZQ==
